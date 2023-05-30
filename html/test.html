@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>你好</title>
+  <style>
+    .pic {
+      width: 200px;
+    }
+    figure {
+      margin: 0;
+    }
+    fieldset {
+      width: 100px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>main</h1>
+    <section>
+      <h2>section 1</h2>
+      <p>下面是一个figure的示例（默认block元素）配合figcaption元素做标题</p>
+      <figure>
+        <img class="pic" alt="这是一个sea" src="image/sea.jpg">
+        <figcaption>这是一张<em>大海的<strong>图片</strong></em></figcaption>
+      </figure>
+      <p>下面是一个单纯的img的示例（默认inline-block元素）配合p元素做标题</p>
+      <img class="pic" alt="这是一个sea" src="image/sea.jpg">
+      <p>这是一张<em>大海的<strong>图片</strong></em></p>
+    </section>
+    <section>
+      <h2>section 2</h2>
+      <form action="8.130.68.29">
+        <fieldset>
+          <span>电话号码：</span><input type="text" placeholder="输入电话" name="phone">
+        </fieldset>
+        <fieldset>
+          <span>衣服颜色：</span>
+          <input type="radio" name="color" value="red" id="red" checked>
+          <label for="red">红色</label>
+          <input type="radio" name="color" value="blue" id="blue">
+          <label for="blue">蓝色</label>
+        </fieldset>
+        
+        <button type="submit">提交</button>
+        
+      </form>
+    </section>
+  </main>
+  <footer>我是脚注</footer>
+</body>
+</html>
